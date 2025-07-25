@@ -14,6 +14,7 @@ def create_clean_architecture(project_name: str) -> None:
         f"{project_name}/src/domain/use_cases/": ["__init__.py"],
         f"{project_name}/src/infrastructure/": ["__init__.py"],
         f"{project_name}/src/infrastructure/database/": ["__init__.py"],
+        f"{project_name}/src/infrastructure/database/models": ["__init__.py"],
         f"{project_name}/src/infrastructure/repositories/": ["__init__.py"],
         f"{project_name}/src/infrastructure/logs/": ["__init__.py"],
         f"{project_name}/src/presentation/": ["__init__.py"],
